@@ -1,30 +1,14 @@
 <a name="readme-top"></a>
 
-<!--
-HOW TO USE:
-This is an example of how you may give instructions on setting up your project locally.
 
-Modify this file to match your project and remove sections that don't apply.
+<div align="center">
 
-REQUIRED SECTIONS:
-- Table of Contents
-- About the Project
-  - Built With
-  - Live Demo
-- Getting Started
-- Authors
-- Future Features
-- Contributing
-- Show your support
-- Acknowledgements
-- License
+  <h3><b>Full Stack Developers</b></h3>
+  <h2><b>Juan Zorrilla & Iqbal Elham</b></h2>
 
-OPTIONAL SECTIONS:
-- FAQ
+</div>
 
-After you're finished please remove all the comments and instructions!
--->
-
+<!-- TABLE OF CONTENTS -->
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
@@ -36,54 +20,45 @@ After you're finished please remove all the comments and instructions!
   - [Prerequisites](#prerequisites)
   - [Install](#install)
   - [Usage](#usage)
-  - [Run tests](#run-tests)
-  - [Deployment](#triangular_flag_on_post-deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [oop-school-library] <a name="about-project"></a>
+# 📖 Decode Morse <a name="about-project"></a>
 
-**[oop-school-library]** Is a Library manager for a school.
+> Decode Morse is a project in Ruby that decodes morse messages.
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
+> This project uses the following stack :
+
 <details>
-<summary>Back-end</summary>
-  <ul>
-    <li><a href="https://www.ruby-lang.org/en/">Ruby</a></li>
-  </ul>
+  <summary>Ruby</summary>
 </details>
 
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
 
-- **[manages which persons takes books from the library and which books are lend by the library identifying if it's a student or a teacher]**
+<!-- > Describe between 1-3 key features of the application. -->
+
+- **Decode Morse messages**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- LIVE DEMO -->
-
-## 🚀 Live Demo <a name="live-demo"></a>
-
-> Add a link to your deployed project.
-
-- [Live Demo Not Available]()
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
+
+<!-- > Clone the repository by clicking on the 'Code' button and copy the link -->
 
 To get a local copy up and running, follow these steps.
 
@@ -91,27 +66,33 @@ To get a local copy up and running, follow these steps.
 
 In order to run this project you need:
 
-ruby installed 
+You should have Ruby install on your local machine
 
 ### Setup
 
 Clone this repository to your desired folder:
 
-  git clone https://github.com/Swarzstein/oop-school-library.git
-  cd oop-school-library
+Example commands:
 
+```sh
+  cd my-folder
+  git clone https://github.com/iqbal-elham/code-morse-decoder.git
+```
 
 ### Install
 
-Install this project with:
+To install ruby go to : [Install Ruby](https://rubyinstaller.org/) and select your operating system.
 
-  bundle install
 
 ### Usage
 
-To run the project, execute the following command:
+To run the project, open your project in your terminal  and type ruby morse_decoder.rb .
 
-ruby app.rb
+Example command:
+
+```sh
+  ruby morse_decoder.rb
+```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -119,13 +100,15 @@ ruby app.rb
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
-
 👤 **Juan Zorrilla**
 
 - GitHub: [@Swarzstein](https://github.com/Swarzstein)
 - LinkedIn: [Juan Zorrilla](https://www.linkedin.com/in/juan-a-zorrilla/)
 
+👤 **Iqbal Elham**
+
+- GitHub: [@iqbal-elham](https://github.com/Iqbal-Elham)
+- linkedIn: [@iqbal-elham](https://www.linkedin.com/in/iqbal-elham)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -134,10 +117,9 @@ ruby app.rb
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
+<!-- > Describe 1 - 3 features you will add to the project. -->
 
-- [ ] **[Adding people]**
-- [ ] **[Adding books]**
+- [ ] **Store the decoded message**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -147,17 +129,15 @@ ruby app.rb
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/Swarzstein/oop-school-library/issues).
+Feel free to check the [issues page](https://github.com/swarzstein/morse-code/issues).
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p
-  
-  <!-- SUPPORT -->
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- SUPPORT -->
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
-
-If you like this project give some stars to support it!
+Give a ⭐️ if you like this project!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -165,9 +145,7 @@ If you like this project give some stars to support it!
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
-
-I would like to thank my mates for their support.
+> I would like to thank the Microverse team.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -176,9 +154,5 @@ I would like to thank my mates for their support.
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](./LICENSE) licensed.
-
-<!--
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
--->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
